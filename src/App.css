@@ -1,0 +1,79 @@
+.page {
+  padding: 16px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-bottom: 2px solid red;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+  height: 400px;
+}
+
+.section-heading {
+  background: rgb(236, 235, 235);
+  color: black;
+  border: none;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  border-radius: 5px;
+  padding: 10px; /* Add padding for better visual appearance */
+}
+
+.red-button {
+  /* Add styles for the red button */
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.red-button:hover {
+  /* Add styles for hover effect on the red button */
+  background-color: darkred;
+}
+
+.grid-container {
+  width: 100%; /* Adjust width as needed */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px; /* Gap between grid items */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 5px; /* Rounded corners for better appearance */
+}
