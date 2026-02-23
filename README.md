@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Security
+
+This project uses `npm overrides` to address security vulnerabilities in transitive dependencies.
+
+### Recent Fixes
+
+- **minimatch**: Upgraded to version `10.2.1` or higher to address a Regular Expression Denial of Service (ReDoS) vulnerability (CVE-2026-26996).
